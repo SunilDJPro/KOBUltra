@@ -7,7 +7,7 @@ def generate_launch_description():
     # Launch arguments
     uart_device_arg = DeclareLaunchArgument(
         'uart_device',
-        default_value='/dev/ttyUSB0',
+        default_value='/dev/ttyACM0',
         description='UART device to use for communication with the base'
     )
     

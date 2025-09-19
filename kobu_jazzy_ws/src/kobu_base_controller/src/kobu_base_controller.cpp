@@ -24,7 +24,7 @@ public:
   : Node("kobu_base_controller")
   {
     // Declare parameters
-    declare_parameter("uart_device", "/dev/ttyUSB0");
+    declare_parameter("uart_device", "/dev/ttyACM0");
     declare_parameter("baud_rate", 115200);
     declare_parameter("cmd_vel_timeout", 0.5);
 
